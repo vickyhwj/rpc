@@ -9,5 +9,5 @@ http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
 
     <jaxws:client id="helloClient"
                   serviceClass="cxf.service.HelloService"
-                  address="http://localhost:8086/cxf-demo/ws/HelloWorld" />
+                  address="http://localhost:8080/cxf-demo/ws/HelloWorld" />
 </beans>

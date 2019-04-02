@@ -9,7 +9,11 @@ import javax.jws.WebService;
 @WebService(endpointInterface = "cxf.service.HelloService")
 public class HelloServiceImpl implements HelloService {
 
-    public String sayHello(String content) {
-        return "hello," + content;
+    public School sayHello(String content) {
+    	School school=new School();
+    	school.setId(1L);
+    	school.setName(content);
+        return school;
+       
     }
 }
